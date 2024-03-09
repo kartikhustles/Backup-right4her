@@ -15,7 +15,7 @@ const Hero = () => {
           awareness. We revolutionize access to legal assistance with a
           comprehensive approach, including education, community support, and
           empowerment initiatives in the fight against gender inequality
-          <Link to="/Case">
+          <Link to="/Resources">
             <div className="mt-8 crazy-button">Learn More</div>
           </Link>
         </div>
