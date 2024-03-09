@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import data_res from "../../Assets/data.js";
 import CaseStudies from "../../Assets/CaseStudies.png";
 
 const Case = () => {
-  const [show, setshow] = useState(false);
+  // const [show, setshow] = useState(false);
 
   return (
     <>
@@ -15,9 +15,9 @@ const Case = () => {
       >
         <div className="flex z-10">
           <div className="flex-col m-auto">
-            <div className="font-sans flex justify-center font-bold mt-8 text-4xl">
+            {/* <div className="font-sans flex justify-center font-bold mt-8 text-4xl">
               Case Studies
-            </div>
+            </div> */}
             <div className="mt-4 mx-10">
               {data_res.map((item, i) => {
                 return (
