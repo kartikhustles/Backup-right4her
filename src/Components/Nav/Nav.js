@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import React from "react";
+import Logo from "../../Assets/Logo.png";
 
 function Nav() {
   return (
     <div className="navbar bg-info px-20">
       <Link to="/" class="navbar-brand mx-3">
-        Law4Her
+        <img src={Logo} className="h-36" />
       </Link>
       <div className="Nav">
         <Link
