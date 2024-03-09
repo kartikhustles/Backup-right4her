@@ -7,14 +7,14 @@ const Case = () => {
   return (
     <div className="flex">
       <div className="flex-col m-auto">
-        <div className="font-sans flex font-bold text-6xl">Case Studies</div>
+        <div className="font-sans flex justify-center font-bold text-4xl">Case Studies</div>
         <div className="m-10">
           {data_res.map((item, i) => {
             return (
               <>
                 <div className="flex justify-between my-5">
                   <div className="font-bold text-2xl">{data_res[i].title}</div>
-                  <div className="font-bold text-2xl">v</div>
+                  <div className="font-bold text-2xl text-white">v</div>
                 </div>
                 <>
                   <div className="font-bold text-lg my-2">
